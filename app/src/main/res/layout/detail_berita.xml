@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/JudulBerita"
+            android:paddingTop="15dp"
+            android:text="Judul Berita"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/fotoberita"
+            android:src="@drawable/foto_kosong"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Diunggah oleh :"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNamaPantiAsuhan"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:text="PA Seturan"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Tanggal : :"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tanggal"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:text="05/03/2017"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isi_berita"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Isi Berita"
+            />
+
+    </LinearLayout>
+</ScrollView>

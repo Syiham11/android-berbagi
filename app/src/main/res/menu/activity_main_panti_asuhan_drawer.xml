@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_dt"
+            android:icon="@drawable/donatur_icon"
+            android:title="Donatur Tetap" />
+        <item
+            android:id="@+id/nav_db"
+            android:icon="@drawable/barang_icon"
+            android:title="Donasi Barang" />
+        <item
+            android:id="@+id/nav_dd"
+            android:icon="@drawable/dana_icon"
+            android:title="Donasi Dana" />
+        <item
+            android:id="@+id/nav_pk"
+            android:icon="@drawable/kegiatan_icon"
+            android:title="Permintaan Kegiatan" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/profil_icon"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Log Out" />
+    </group>
+
+</menu>
